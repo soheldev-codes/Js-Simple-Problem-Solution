@@ -10,11 +10,16 @@ Free Drinks
 
 // Solution
 
-const myCash = 500;
+let burgerPrice = 510;
 
-if (myCash > 500) {
-    console.log("I Eat Burger And  I Recived A Free Coke.")
-}
-else {
-    console.log("Coke Is Better.Because coke is only 30 taka")
+// Check if the input is a valid number
+if (isNaN(burgerPrice) || burgerPrice <= 0) {
+    console.log('Please enter a valid burger price.');
+} else {
+    // Using only if-else statements to check the price and determine the result
+    if (burgerPrice > 500) {
+        console.log('Congratulations! You get a free Coke!');
+    } else {
+        console.log('Coke costs 30 Tk.');
+    }
 }
