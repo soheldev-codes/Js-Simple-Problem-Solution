@@ -39,6 +39,6 @@ if (isNaN(score) || score < 0 || score > 100) {
         gradePoint = 'F';
     }
 
-    // Console the grade
+    // Console Show the grade Number
     console.log("The student's grade is: " + gradePoint);
 }
