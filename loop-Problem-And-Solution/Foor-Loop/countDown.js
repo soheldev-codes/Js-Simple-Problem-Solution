@@ -1,11 +1,11 @@
 /***
 
 Implement a countdown timer that counts down 
-from 81 to 65.
+from 21 to 15.
 
  */
 
-for (let i = 81; i >= 65; i--) {
+for (let i = 21; i >= 15; i--) {
     console.log(i)
 
 }
